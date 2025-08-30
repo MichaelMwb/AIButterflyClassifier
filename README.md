@@ -19,7 +19,7 @@ Validation accuracy ≈ **90%** on a held-out split.
 - `learning.png` — example learning curves (generated)
 
 > **Note on data:** Training/validation/test images are **not** stored in this repo.  
-> Download the **data pack** ➜ [here](https://drive.google.com/drive/folders/1EzBWq2fndev6-8rkBhKb2OtMmYOFyYHQ?usp=sharing)
+> Download the **data pack** ➜ **[here]**(https://drive.google.com/drive/folders/1EzBWq2fndev6-8rkBhKb2OtMmYOFyYHQ?usp=sharing)
 
 ---
 
