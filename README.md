@@ -22,4 +22,20 @@ Validation accuracy ≈ **90%** on a held-out split.
 > **Note on data:** Training/validation/test images are **not** stored in this repo.  
 > Download the **data pack** ➜ **[here](https://drive.google.com/drive/folders/1EzBWq2fndev6-8rkBhKb2OtMmYOFyYHQ?usp=sharing)**
 ---
-
+🛠 Usage
+Once the Requirements are Installed, Run:
+```
+python3 train.py   # May take a long time depending on CPU
+```
+⚡**For NVIDIA GPU Users**: To enable CUDA acceleration (recommended for training), install PyTorch with GPU support:
+```
+python3 -m pip install --index-url https://download.pytorch.org/whl/cu121 torch==2.5.1+cu121 torchvision==0.20.1+cu121 torchaudio==2.5.1+cu121
+```
+To Generate Learning Curves, Run:
+```
+python makeplots.py # Creates learning.png
+```
+To Run Batch Inference on Images:
+```
+python predict.py # Writes predictions labels to predictions.csv
+```
