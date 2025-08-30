@@ -17,9 +17,9 @@ Validation accuracy ≈ **90%** on a held-out split.
 - `app.py` — small Gradio UI (upload image → top-k predictions)
 - `requirements.txt` — Python deps
 - `learning.png` — example learning curves (generated)
+- `predictions.csv` — predictions of the model
 
 > **Note on data:** Training/validation/test images are **not** stored in this repo.  
 > Download the **data pack** ➜ **[here](https://drive.google.com/drive/folders/1EzBWq2fndev6-8rkBhKb2OtMmYOFyYHQ?usp=sharing)**
-
 ---
 
